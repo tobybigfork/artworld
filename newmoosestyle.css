@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+    background: #fff;
+    font-family: PT sans, sans-serif;
+}
+
+.header {
+	padding-top: 50px;
+	background-color: #000;
+}
+
+.header__logo {
+	margin-left: 150px;
+    display: block;
+    width: 259px;
+    height: 86px;
+    background: url(artworldlogo.svg) no-repeat 50% 50%;
+    background-size: contain;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 150%;
+}
+
+.nav__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	background-color: #000;
+}
+
+.nav__info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 50px;
+	margin-right: 150px;
+}
+
+.nav__item {
+	padding: 5px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+}
+
+.nav__part {
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 180%;
+}
+
+.nav__item--current a:hover,
+.nav__item--current a:active {
+	color: #00AA9E;
+}
+
+.nav__item--current a:link,
+.nav__item--current a:visited {
+	color: #00AA9E;
+}
+
+.gallerytitle {
+	display: block;
+	font-weight: 700;
+	margin-left: 20%;
+}
+
+.gallerytitle p {
+	display: inline-block;
+	font-size: 550%;
+	color: #4B85C8;
+}
+
+.gallerytitle span {
+	display: inline-block;
+	font-size: 550%;
+	color: #00AA9E;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 200px;
+}
+
+.newmoose {
+	padding-right: 150px;
+}
+
+.lion {
+	color: #00AA9E;
+	font-size: 300%;
+	font-weight: 500;
+}
+
+.text__container p {
+	color: #000;
+	font-size: 300%;
+	font-weight: 300;
+}
+
+.artist {
+	display: block;
+	padding-right: 5px;
+}
+
+.artist {
+	display: inline-block;
+}
+
+.filler {
+	display: block;
+	font-size: 150%;
+}
+
+.border {
+	border: 1px solid #000;
+}
+
+.back {
+	padding-top: 20px;
+	font-weight: 300;
+	font-size: 200%;
+}
+
+.abode {
+	display: inline-block;
+	color: #4B85C8;
+	font-size: 300%;
+}
+
+.footer {
+	color: #000;
+	background-color: #fff;
+	border-top: 1px solid #000;
+	padding: 30px 0px 30px 0px;
+	width: 100%;
+	margin-left: 10%; 
+}
+
+.contents {
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 20%;
+}
+
+.footer__item1 {
+	padding: 0px 5px 0px 5px;
+	font-size: 150%;
+}
+
+.footer__item2 {
+    padding: 0px 5px 0px 5px;
+	color: #9B9B9B;
+	font-size: 150%;
+}
+
+.footer__item3 {
+	padding: 0px 5px 0px 5px;
+	font-size: 150%;
+}
