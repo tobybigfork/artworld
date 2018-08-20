@@ -11,24 +11,41 @@ body {
 	padding: 0;
 	color: #000;
     background: #fff;
-    font-family: PT sans, sans-serif;
+    font-family: rubik, sans-serif;
 }
 
 .header {
-	padding-top: 50px;
+	padding-top: 18px;
+	padding-bottom: 32px;
 	background-color: #000;
 }
 
+@media only screen and (max-width: 667px) {
+	.header__logo {
+		margin-left: 2%;
+		margin-right: 2%;
+		display: block;
+	    height: 86px;
+	    background: url(artworldlogo.svg) no-repeat 50% 50%;
+	    background-size: contain;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-indent: 150%;
+	}
+}
+
+@media only screen and (min-width: 667px) {
 .header__logo {
-	margin-left: 150px;
-    display: block;
-    width: 259px;
-    height: 86px;
-    background: url(artworldlogo.svg) no-repeat 50% 50%;
-    background-size: contain;
-    overflow: hidden;
-    white-space: nowrap;
-    text-indent: 150%;
+		margin-left: 150px;
+	    display: block;
+	    width: 259px;
+	    height: 86px;
+	    background: url(artworldlogo.svg) no-repeat 50% 50%;
+	    background-size: contain;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-indent: 150%;
+    }
 }
 
 .nav__container {
@@ -49,7 +66,7 @@ body {
 }
 
 .nav__item {
-	padding: 5px;
+	padding: 6.5px;
 	text-decoration: none;
 	list-style-type: none;
 	color: #fff;
@@ -90,17 +107,40 @@ body {
 	color: #00AA9E;
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-bottom: 200px;
+@media only screen and (max-width: 667px) {
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-bottom: 200px;
+	}
 }
 
+@media only screen and (min-width: 667px) {
+.container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-bottom: 200px;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+	.newmoose img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 667px) {
 .newmoose {
 	padding-right: 150px;
+	}
 }
 
 .lion {

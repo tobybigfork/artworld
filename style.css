@@ -11,29 +11,57 @@ body {
 	padding: 0;
 	color: #000;
     background: #000;
-    font-family: PT sans, sans-serif;
+    font-family: rubik, sans-serif;
 }
 
 .header {
-	padding-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 18px;
+	padding-bottom: 32px;
+	background-color: #000;
 }
 
+@media only screen and (max-width: 667px) {
+	.header__logo {
+		margin-left: 2%;
+		margin-right: 2%;
+		display: block;
+	    height: 86px;
+	    background: url(artworldlogo.svg) no-repeat 50% 50%;
+	    background-size: contain;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-indent: 150%;
+	}
+}
+
+@media only screen and (min-width: 667px) {
 .header__logo {
-	margin-left: 150px;
-    display: block;
-    width: 259px;
-    height: 86px;
-    background: url(artworldlogo.svg) no-repeat 50% 50%;
-    background-size: contain;
-    overflow: hidden;
-    white-space: nowrap;
-    text-indent: 150%;
+		margin-left: 150px;
+	    display: block;
+	    width: 259px;
+	    height: 86px;
+	    background: url(artworldlogo.svg) no-repeat 50% 50%;
+	    background-size: contain;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-indent: 150%;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+	.nav__container {
+		font-size: 
+	}
 }
 
 .nav__container {
-	display: flex;
+	display: inline-block;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	background-color: #000;
 }
 
 .nav__info {
@@ -42,11 +70,11 @@ body {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-items: center;
-	padding-bottom: 50px;
 	margin-right: 150px;
+	padding-top: 30px;
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 572px) {
 	.nav__info {
 		display: block;
 		font-size: 200%;
@@ -54,7 +82,7 @@ body {
 }
 
 .nav__item {
-	padding: 5px;
+	padding: 6.5px;
 	text-decoration: none;
 	list-style-type: none;
 	color: #fff;
@@ -67,6 +95,7 @@ body {
 }
 
 .nav__part {
+	padding-top: 30px;
 	list-style-type: none;
 	text-decoration: none;
 	color: #fff;
@@ -83,8 +112,14 @@ body {
 	color: #00AA9E;
 }
 
+.news {
+	display: block;
+	margin-left: 10%;
+}
+
 .hero__section {
 	width: 100%;
+	position: relative;
 }
 
 .border {
@@ -103,7 +138,7 @@ body {
 }
 
 .hero__title {
-	top: 35%;
+	top: 42%;
 	left: 42%;
 	color: #00AA9E;
 	position: absolute;
@@ -131,8 +166,9 @@ body {
 
 .news {
 	font-size: 500%;
-	padding: 50px 0px 50px 300px;
+	padding: 50px 0px 50px 265px;
 	margin-left: 10%;
+	background-color: #000;
 }
 
 .news p {
@@ -150,6 +186,7 @@ body {
 }
 
 .feature__container {
+	background-color: #000;
 	min-width: 1128px;
 }
 
@@ -291,6 +328,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 20px;
+	padding-bottom: 24px;
 }
 
 .footer__item1 {
