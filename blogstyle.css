@@ -331,8 +331,14 @@ body {
 .newart2 {
 	display: inline-block;
 	font-size: 500%;
-	padding: 50px 0px 50px 0px;
-	margin-left: 25.8%;
+	padding-top: 50px;
+	margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 799px) {
+.newart2 {
+	margin-left: 2%;
 	}
 }
 
@@ -347,8 +353,14 @@ body {
 .features {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 10%;
+	margin-left: 9%;
 	margin-right: 10%;
+}
+
+@media only screen and (max-width: 799px) {
+	.features {
+		margin-left: 1%;
+	}
 }
 
 .features img {
@@ -394,4 +406,5 @@ body {
 .footer__item3 {
 	padding: 10px;
 	font-size: 150%;
+	font-weight: 300;
 }

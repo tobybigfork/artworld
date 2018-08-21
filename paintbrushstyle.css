@@ -34,8 +34,7 @@ body {
 	    overflow: hidden;
 	    white-space: nowrap;
 	    text-indent: 150%;
-	    position: relative;
-	   	}
+	}
 }
 
 @media only screen and (min-width: 667px) {
@@ -115,112 +114,61 @@ body {
 	color: #00AA9E;
 }
 
-.gallerytitle {
-	display: block;
-	font-weight: 700;
-	margin-left: 20%;
-}
 
-.gallerytitle p {
-	display: inline-block;
-	font-size: 550%;
-	color: #4B85C8;
-}
-
-.gallerytitle span {
-	display: inline-block;
-	font-size: 550%;
-	color: #00AA9E;
-}
-
-.page__container {
-	display: block;
-}
-
-.container {
-	display: inline-block;
-}
-
-@media only screen and (max-width: 667px) {
-	.container {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		padding-left: 3%;
-		padding-right: 3%;
-		}
-}
-
-@media only screen and (min-width: 667px) {
-.container {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		margin-left: 10%;
-		margin-right: 10%;
-		padding-bottom: 200px;
-    }
-}
-
-@media only screen and (max-width: 667px) {
-	.newwow img {
-		display: block;
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media only screen and (min-width: 667px) {
-.newwow {
-	padding-right: 150px;
-	}
-}
-
-.lion {
-	color: #00AA9E;
-	font-size: 300%;
-	font-weight: 500;
-}
-
-.text__container {
-	display: inline-block;
-}
-
-.text__container p {
-	color: #000;
-	font-size: 300%;
-	font-weight: 300;
-}
-
-.artist {
-	display: block;
-	padding-right: 5px;
-}
-
-.artist {
-	display: inline-block;
-}
-
-.filler {
-	display: block;
-	font-size: 150%;
+.hero__section {
+	width: 100%;
 }
 
 .border {
-	border: 1px solid #000;
+	border: solid 1px #fff;
+}
+
+.hero__image {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.hero__image img {
+		width: 100%; 
+	    height: auto;
 }
 
 .back {
-	padding-top: 20px;
-	font-weight: 300;
-	font-size: 200%;
+	width: 100%; 
+    height: auto;
+    padding-left: 10%;
+    font-size: 150%;
 }
 
-.abode {
-	display: inline-block;
+.post__container {
+	max-width: 2294px;
+}
+
+.paintbrushestext {
+	color: #000;
+	width: 100%;
+	background: #fff;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.paintbrushestext h1 {
+	color: #00AA9E;
+	font-size: 300%;
+}
+
+.paintbrushestext {
+	color: #000;
+	width: 100%;
+	background: #fff;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.paintbrushestext h2 {
 	color: #4B85C8;
 	font-size: 300%;
-	font-weight: 300;
 }
 
 .footer {
@@ -228,7 +176,7 @@ body {
 	background-color: #fff;
 	padding: 100px 0px 0px 0px;
 	width: 100%; 
-	margin-left: 2%;
+	margin-left: 10%;
 	margin-right: 10%;
 	max-width: 1775px;
 }
@@ -258,3 +206,4 @@ body {
 	font-size: 150%;
 	font-weight: 300;
 }
+ 
