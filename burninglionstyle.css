@@ -120,7 +120,7 @@ body {
 	.gallerytitle {
 		display: block;
 		font-weight: 700;
-		margin-left: 20%;
+		margin-left: 5%;
 	}
 }
 
@@ -170,8 +170,7 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 5%;
 		padding-bottom: 200px;
     }
 }
@@ -186,7 +185,7 @@ body {
 
 @media only screen and (min-width: 667px) {
 .burninglion {
-	padding-right: 150px;
+	padding-right: 50px;
 	}
 }
 
@@ -202,8 +201,8 @@ body {
 
 .text__container p {
 	color: #000;
-	font-size: 300%;
 	font-weight: 300;
+	font-size: 200%;
 }
 
 .artist {
@@ -217,7 +216,7 @@ body {
 
 .filler {
 	display: block;
-	font-size: 150%;
+	font-size: 130%;
 	max-width: 1128px;
 }
 
@@ -241,11 +240,16 @@ body {
 .footer {
 	color: #000;
 	background-color: #fff;
-	padding: 100px 0px 0px 0px;
-	width: 100%; 
-	margin-left: 2%;
-	margin-right: 10%;
-	max-width: 1775px;
+	padding-top: 50px;
+	margin-left: 5%;
+	margin-right: 12%;
+}
+
+@media only screen and (max-width: 800px) {
+	.footer {
+        margin-right: 4%;
+        margin-left: 3%;
+	}
 }
 
 .contents {
@@ -273,3 +277,4 @@ body {
 	font-size: 150%;
 	font-weight: 300;
 }
+

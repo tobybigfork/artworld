@@ -171,14 +171,20 @@ body {
 	font-size: 300%;
 }
 
+
 .footer {
 	color: #000;
 	background-color: #fff;
-	padding: 100px 0px 0px 0px;
-	width: 100%; 
+	padding-top: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
-	max-width: 1775px;
+}
+
+@media only screen and (max-width: 800px) {
+	.footer {
+        margin-right: 4%;
+        margin-left: 3%;
+	}
 }
 
 .contents {
@@ -206,4 +212,3 @@ body {
 	font-size: 150%;
 	font-weight: 300;
 }
- 
